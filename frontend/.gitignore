@@ -1,0 +1,111 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# 缓存文件
+.cache
+.npm
+.eslintcache
+.stylelintcache
+
+# 打包文件
+build/
+dist/
+out/
+
+# 依赖锁定文件 (根据项目需要选择性注释)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# 测试文件
+*/test.py
+__tests__
+test
+tests
+**/*.test.js
+**/*.spec.js
+
+# 临时文件
+temp
+tmp
+.tmp
+
+# 本地配置文件
+.npmrc
+.yarnrc
+.sentryclirc
+
+# 编译后的代码
+lib/
+**/*.min.js
+**/*.min.css
+
+# 敏感信息或个人配置
+secrets.*
+**/*.pem
+**/*.key
+
+# 系统文件
+Thumbs.db
+desktop.ini
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask相关
+instance/
+.webassets-cache
+
+# Alembic相关 (根据项目需要选择性注释)
+# migrations/versions/
+# migrations/script.py.mako
+# migrations/env.py
+# migrations/README
+# migrations/alembic.ini
